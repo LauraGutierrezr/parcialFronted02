@@ -101,25 +101,14 @@ Para la creación del front la realizaré con HTML desde mi local, teniendo en c
 ![image](https://github.com/user-attachments/assets/9e08e7e3-8fdf-4836-a721-b26de769b553)
 
 
-
-
-
-
-
-**  **
-
-   realice varios tipos de Test
-  
-  
-  
-  
-  AGENTE LOG:
-  
-    - **Debe escribir en stdout cada vez que se modifica el stock de un producto`**:
-    Implementandolo en la clase .java, quedaría**
-
       ```
-      
+     El Fronted ya está listo, es funcional y practico, cumpliendo los requisitos dados en el problema.
+
+       -Permite registrar compra
+       -Verificar productos
+       -Registrar el pago
+       -Buscar compras anteriormente realizadas por el usuario con su Id correspondiente
+     Falta la integración con la base de datos mongo
       ```
 
 
