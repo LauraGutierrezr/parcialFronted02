@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECICredit - Pagos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar Pago</h1>
+        <form id="paymentForm">
+            <label for="usuarioId">ID de Usuario:</label>
+            <input type="text" id="usuarioId" required><br>
+
+            <h2>Productos</h2>
+            <div id="products">
+                <div class="product">
+                    <label for="productoNombre">Nombre del Producto:</label>
+                    <input type="text" class="productoNombre" required><br>
+
+                    <label for="productoValorUnitario">Valor Unitario:</label>
+                    <input type="number" class="productoValorUnitario" required><br>
+
+                    <label for="productoCantidad">Cantidad:</label>
+                    <input type="number" class="productoCantidad" required><br><br>
+                </div>
+            </div>
+
+            <button type="button" onclick="addProduct()">Añadir Otro Producto</button><br><br>
+            <button type="submit">Registrar Pago</button>
+        </form>
+
+        <hr>
+
+        <h1>Consultar Pagos</h1>
+        <form id="consultForm">
+            <label for="consultaUsuarioId">ID de Usuario:</label>
+            <input type="text" id="consultaUsuarioId" required><br>
+            <button type="submit">Consultar Pagos</button>
+        </form>
+
+        <div id="paymentInfo"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
