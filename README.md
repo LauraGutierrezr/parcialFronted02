@@ -1,4 +1,4 @@
-# PARCIAL CVDS SEGUNDO CORTE
+# PARCIAL CVDS SEGUNDO CORTE frontend
 
 **👥 Estudiante CVDS:**
 - Laura Valentina Gutiérrez Rico
